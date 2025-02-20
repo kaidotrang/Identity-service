@@ -8,6 +8,8 @@ public enum ErrorCode {
     INVALID_BLANK_USERNAME(1004, "Username must not be blank"),
     INVALID_SIZE_PASSWORD(1005, "Password has been at least 8 characters"),
     INVALID_BLANK_PASSWORD(1006, "Password must not be blank"),
+    UNAUTHENTICATED(1007, "Unauthenticated"),
+    PARSE_EXCEPTION(1008, "PARSE NOT SUCCESSFULLY"),
     ;
     private int code;
     private String message;
